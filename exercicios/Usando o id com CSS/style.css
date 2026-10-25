@@ -1,0 +1,48 @@
+@charset "UTF-8"
+/*
+em HTML é id --- em CSS é # ( cerquilha, só pode um elemento, por pagina, HTML)
+
+em HTML é class ---em CSS é . ( ponto, pode vários elementos )
+*/
+body {
+    background-color: rgb(99, 119, 185);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(126, 130, 165);
+}
+
+h1#principal{
+    text-align: center;
+    box-shadow: 3em;
+    background-color: rgb(42, 41, 87);
+    color: rgb(95, 103, 163);
+}
+h2 {
+    color: rgb(161, 163, 182);
+}
+
+.subtitulo{
+    background-color: #00ffff;
+    color: blue;
+}
+
+.basico{
+    background-color: #3d4e4e;
+    color: blueviolet;
+}
+
+.intermediario{
+    background-color: #2c5e5e;
+    color: rgb(212, 16, 154);
+}
+
+.avancado{
+    background-color: #0e3b3b;
+    color: rgb(55, 175, 39);
+}
+
+.destaque{
+    background-color: #bcce1e;
+}

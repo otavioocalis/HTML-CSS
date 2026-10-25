@@ -1,0 +1,17 @@
+@charset
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* medida absoluta  
+        cm, mm, in, px, pt, pc
+        
+       medida relativa
+        em, ex, rem, vw, vh, % 
+
+        16px geralmente é = 1em
+
+        shorthand
+        font: font-family font-size 
+    */
+    font-size: 1em ;
+} 

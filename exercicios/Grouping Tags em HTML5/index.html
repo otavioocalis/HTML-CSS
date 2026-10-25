@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(0, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(30, 87, 87);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(181, 224, 224);
+            padding: 3px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(209, 145, 145);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: rgb(104, 105, 151);
+            padding: 10px;
+            margin: 10px;      
+        }
+
+        article{
+            background-color: rgb(127, 255, 212);
+            padding: 5px;      
+        }
+        article > aside{
+            background-color: rgb(117, 182, 160);     
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            color: blue;
+            text-align: center;
+            padding: 5px;
+            margin: 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav> 
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            Brasil Politica
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aut excepturi quasi unde cumque at ex facilis quod quae natus, molestiae quibusdam sequi accusantium molestias rerum libero, sit, est nostrum?</p>
+                    <aside>
+                          <p>artigo karina</p> 
+                    </aside>
+            </article>
+        </section>
+
+        <section>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
