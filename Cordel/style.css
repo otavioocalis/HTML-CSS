@@ -5,9 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
 
 :root {
-    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte1: "Eldes Cordel", Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: "Playwrite AR Guides", cursive;
     --fonte3: "Imperial Script", cursive;
+    
 }
 
 * {
